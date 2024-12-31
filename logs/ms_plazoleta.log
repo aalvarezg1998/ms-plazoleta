@@ -1,0 +1,299 @@
+2024-12-30T20:47:31.853-05:00  INFO 17140 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Starting MsPlazoletaApplication using Java 21.0.2 with PID 17140 (C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta\target\classes started by aalva in C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta)
+2024-12-30T20:47:31.868-05:00  INFO 17140 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T20:47:33.006-05:00  INFO 17140 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T20:47:33.079-05:00  INFO 17140 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-12-30T20:47:33.310-05:00  INFO 17140 --- [ms-plazoleta] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=23ae6ee1-6e87-36b4-a5d6-4a978b2cf9a8
+2024-12-30T20:47:33.705-05:00  INFO 17140 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-12-30T20:47:33.721-05:00  INFO 17140 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T20:47:33.721-05:00  INFO 17140 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T20:47:33.801-05:00  INFO 17140 --- [ms-plazoleta] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T20:47:33.802-05:00  INFO 17140 --- [ms-plazoleta] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1855 ms
+2024-12-30T20:47:33.938-05:00  INFO 17140 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T20:47:34.150-05:00  INFO 17140 --- [ms-plazoleta] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@99a8de3
+2024-12-30T20:47:34.153-05:00  INFO 17140 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T20:47:34.245-05:00  INFO 17140 --- [ms-plazoleta] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T20:47:34.341-05:00  INFO 17140 --- [ms-plazoleta] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T20:47:34.415-05:00  INFO 17140 --- [ms-plazoleta] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T20:47:35.039-05:00  INFO 17140 --- [ms-plazoleta] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T20:47:35.204-05:00  INFO 17140 --- [ms-plazoleta] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T20:47:36.457-05:00  INFO 17140 --- [ms-plazoleta] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T20:47:36.461-05:00  INFO 17140 --- [ms-plazoleta] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:47:36.987-05:00  WARN 17140 --- [ms-plazoleta] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-30T20:47:37.186-05:00  INFO 17140 --- [ms-plazoleta] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-30T20:47:37.741-05:00  INFO 17140 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-12-30T20:47:37.756-05:00  INFO 17140 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Started MsPlazoletaApplication in 7.014 seconds (process running for 8.96)
+2024-12-30T20:48:44.082-05:00  INFO 17140 --- [ms-plazoleta] [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30T20:48:44.082-05:00  INFO 17140 --- [ms-plazoleta] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-30T20:48:44.082-05:00  INFO 17140 --- [ms-plazoleta] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-30T20:48:44.829-05:00  INFO 17140 --- [ms-plazoleta] [http-nio-8086-exec-2] c.a.m.i.f.adapter.UsuarioFeingAdapter    : [404] during [GET] to [http://localhost:8085/propietarios?id=7] [IUsuarioFeingClient#isPropietario(Long)]: [{"timestamp":"2024-12-31T01:48:44.658+00:00","status":404,"error":"Not Found","path":"/propietarios"}]
+2024-12-30T20:48:44.837-05:00 ERROR 17140 --- [ms-plazoleta] [http-nio-8086-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.aalvarezg.ms_plazoleta.infrastructure.exception.NoIsPropietarioException] with root cause
+
+com.aalvarezg.ms_plazoleta.infrastructure.exception.NoIsPropietarioException: null
+	at com.aalvarezg.ms_plazoleta.infrastructure.feign.adapter.UsuarioFeingAdapter.isPropietario(UsuarioFeingAdapter.java:21) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.esUsuarioPropietarioValido(RestauranteUseCase.java:81) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.validarUsuarioPropietario(RestauranteUseCase.java:63) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.validarRestaurante(RestauranteUseCase.java:29) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.crearRestaurante(RestauranteUseCase.java:22) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.application.handler.RestauranteHandler.crearRestaurante(RestauranteHandler.java:20) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.1.jar:6.2.1]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.aalvarezg.ms_plazoleta.application.handler.RestauranteHandler$$SpringCGLIB$$0.crearRestaurante(<generated>) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.infrastructure.input.rest.RestauranteRestController.crearRestaurante(RestauranteRestController.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-30T20:50:21.682-05:00  INFO 17140 --- [ms-plazoleta] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30T20:50:21.687-05:00  INFO 17140 --- [ms-plazoleta] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-30T20:50:21.691-05:00  INFO 17140 --- [ms-plazoleta] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:50:21.694-05:00  INFO 17140 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-30T20:50:21.696-05:00  INFO 17140 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-30T20:50:27.384-05:00  INFO 11960 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Starting MsPlazoletaApplication using Java 21.0.2 with PID 11960 (C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta\target\classes started by aalva in C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta)
+2024-12-30T20:50:27.389-05:00  INFO 11960 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T20:50:28.557-05:00  INFO 11960 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T20:50:28.643-05:00  INFO 11960 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-12-30T20:50:28.874-05:00  INFO 11960 --- [ms-plazoleta] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=23ae6ee1-6e87-36b4-a5d6-4a978b2cf9a8
+2024-12-30T20:50:29.287-05:00  INFO 11960 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-12-30T20:50:29.304-05:00  INFO 11960 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T20:50:29.306-05:00  INFO 11960 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T20:50:29.384-05:00  INFO 11960 --- [ms-plazoleta] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T20:50:29.384-05:00  INFO 11960 --- [ms-plazoleta] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1924 ms
+2024-12-30T20:50:29.522-05:00  INFO 11960 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T20:50:29.683-05:00  INFO 11960 --- [ms-plazoleta] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@241b971f
+2024-12-30T20:50:29.685-05:00  INFO 11960 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T20:50:29.766-05:00  INFO 11960 --- [ms-plazoleta] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T20:50:29.830-05:00  INFO 11960 --- [ms-plazoleta] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T20:50:29.867-05:00  INFO 11960 --- [ms-plazoleta] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T20:50:30.200-05:00  INFO 11960 --- [ms-plazoleta] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T20:50:30.310-05:00  INFO 11960 --- [ms-plazoleta] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T20:50:31.616-05:00  INFO 11960 --- [ms-plazoleta] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T20:50:31.619-05:00  INFO 11960 --- [ms-plazoleta] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:50:32.142-05:00  WARN 11960 --- [ms-plazoleta] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-30T20:50:32.355-05:00  INFO 11960 --- [ms-plazoleta] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-30T20:50:32.924-05:00  INFO 11960 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-12-30T20:50:32.940-05:00  INFO 11960 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Started MsPlazoletaApplication in 6.095 seconds (process running for 6.878)
+2024-12-30T20:50:38.044-05:00  INFO 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30T20:50:38.045-05:00  INFO 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-30T20:50:38.046-05:00  INFO 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-30T20:50:38.141-05:00  INFO 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] c.a.m.a.handler.RestauranteHandler       : Se inicia a crear el restaurante con el nombre Prueba SAS
+2024-12-30T20:50:38.173-05:00  INFO 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] c.a.m.i.f.adapter.UsuarioFeingAdapter    : [404] during [GET] to [http://localhost:8085/propietarios?id=7] [IUsuarioFeingClient#isPropietario(Long)]: [{"timestamp":"2024-12-31T01:50:38.163+00:00","status":404,"error":"Not Found","path":"/propietarios"}]
+2024-12-30T20:50:38.176-05:00 ERROR 11960 --- [ms-plazoleta] [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.aalvarezg.ms_plazoleta.infrastructure.exception.NoIsPropietarioException] with root cause
+
+com.aalvarezg.ms_plazoleta.infrastructure.exception.NoIsPropietarioException: null
+	at com.aalvarezg.ms_plazoleta.infrastructure.feign.adapter.UsuarioFeingAdapter.isPropietario(UsuarioFeingAdapter.java:21) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.esUsuarioPropietarioValido(RestauranteUseCase.java:81) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.validarUsuarioPropietario(RestauranteUseCase.java:63) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.validarRestaurante(RestauranteUseCase.java:29) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.domain.usecase.RestauranteUseCase.crearRestaurante(RestauranteUseCase.java:22) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.application.handler.RestauranteHandler.crearRestaurante(RestauranteHandler.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.1.jar:6.2.1]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.aalvarezg.ms_plazoleta.application.handler.RestauranteHandler$$SpringCGLIB$$0.crearRestaurante(<generated>) ~[classes/:na]
+	at com.aalvarezg.ms_plazoleta.infrastructure.input.rest.RestauranteRestController.crearRestaurante(RestauranteRestController.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-30T20:52:14.733-05:00  INFO 11960 --- [ms-plazoleta] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30T20:52:14.739-05:00  INFO 11960 --- [ms-plazoleta] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-30T20:52:14.744-05:00  INFO 11960 --- [ms-plazoleta] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:52:14.747-05:00  INFO 11960 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-30T20:52:14.756-05:00  INFO 11960 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-30T20:52:20.950-05:00  INFO 5488 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Starting MsPlazoletaApplication using Java 21.0.2 with PID 5488 (C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta\target\classes started by aalva in C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta)
+2024-12-30T20:52:20.954-05:00  INFO 5488 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T20:52:21.668-05:00  INFO 5488 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T20:52:21.720-05:00  INFO 5488 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-12-30T20:52:21.865-05:00  INFO 5488 --- [ms-plazoleta] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=23ae6ee1-6e87-36b4-a5d6-4a978b2cf9a8
+2024-12-30T20:52:22.143-05:00  INFO 5488 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-12-30T20:52:22.155-05:00  INFO 5488 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T20:52:22.155-05:00  INFO 5488 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T20:52:22.249-05:00  INFO 5488 --- [ms-plazoleta] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T20:52:22.249-05:00  INFO 5488 --- [ms-plazoleta] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2024-12-30T20:52:22.338-05:00  INFO 5488 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T20:52:22.461-05:00  INFO 5488 --- [ms-plazoleta] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ca7e37f
+2024-12-30T20:52:22.462-05:00  INFO 5488 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T20:52:22.523-05:00  INFO 5488 --- [ms-plazoleta] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T20:52:22.568-05:00  INFO 5488 --- [ms-plazoleta] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T20:52:22.598-05:00  INFO 5488 --- [ms-plazoleta] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T20:52:22.833-05:00  INFO 5488 --- [ms-plazoleta] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T20:52:22.911-05:00  INFO 5488 --- [ms-plazoleta] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T20:52:23.572-05:00  INFO 5488 --- [ms-plazoleta] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T20:52:23.575-05:00  INFO 5488 --- [ms-plazoleta] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:52:23.896-05:00  WARN 5488 --- [ms-plazoleta] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-30T20:52:24.019-05:00  INFO 5488 --- [ms-plazoleta] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-30T20:52:24.397-05:00  INFO 5488 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-12-30T20:52:24.414-05:00  INFO 5488 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Started MsPlazoletaApplication in 3.998 seconds (process running for 4.803)
+2024-12-30T20:52:33.614-05:00  INFO 5488 --- [ms-plazoleta] [http-nio-8086-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30T20:52:33.614-05:00  INFO 5488 --- [ms-plazoleta] [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-30T20:52:33.614-05:00  INFO 5488 --- [ms-plazoleta] [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-12-30T20:52:33.868-05:00  INFO 5488 --- [ms-plazoleta] [http-nio-8086-exec-6] c.a.m.a.handler.RestauranteHandler       : Se inicia a crear el restaurante con el nombre Prueba SAS
+2024-12-30T20:57:54.296-05:00  INFO 5488 --- [ms-plazoleta] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30T20:57:54.306-05:00  INFO 5488 --- [ms-plazoleta] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-30T20:57:54.313-05:00  INFO 5488 --- [ms-plazoleta] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:57:54.315-05:00  INFO 5488 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-30T20:57:54.319-05:00  INFO 5488 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-30T20:57:59.887-05:00  INFO 15896 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Starting MsPlazoletaApplication using Java 21.0.2 with PID 15896 (C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta\target\classes started by aalva in C:\Users\aalva\Desktop\Cursos\Pragma\RETOS\CHAPTER BACKEND\BACKEND\ms-plazoleta)
+2024-12-30T20:57:59.890-05:00  INFO 15896 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T20:58:00.884-05:00  INFO 15896 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T20:58:00.954-05:00  INFO 15896 --- [ms-plazoleta] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-12-30T20:58:01.181-05:00  INFO 15896 --- [ms-plazoleta] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8e5021de-6f2c-3050-93fc-6a6c2552b30b
+2024-12-30T20:58:01.701-05:00  INFO 15896 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-12-30T20:58:01.717-05:00  INFO 15896 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T20:58:01.719-05:00  INFO 15896 --- [ms-plazoleta] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T20:58:01.800-05:00  INFO 15896 --- [ms-plazoleta] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T20:58:01.801-05:00  INFO 15896 --- [ms-plazoleta] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1858 ms
+2024-12-30T20:58:01.944-05:00  INFO 15896 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T20:58:02.133-05:00  INFO 15896 --- [ms-plazoleta] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7eaa2bc6
+2024-12-30T20:58:02.135-05:00  INFO 15896 --- [ms-plazoleta] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T20:58:02.239-05:00  INFO 15896 --- [ms-plazoleta] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T20:58:02.328-05:00  INFO 15896 --- [ms-plazoleta] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T20:58:02.376-05:00  INFO 15896 --- [ms-plazoleta] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T20:58:02.757-05:00  INFO 15896 --- [ms-plazoleta] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T20:58:02.860-05:00  INFO 15896 --- [ms-plazoleta] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T20:58:03.744-05:00  INFO 15896 --- [ms-plazoleta] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T20:58:03.749-05:00  INFO 15896 --- [ms-plazoleta] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T20:58:04.161-05:00  WARN 15896 --- [ms-plazoleta] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-30T20:58:04.359-05:00  INFO 15896 --- [ms-plazoleta] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-30T20:58:04.826-05:00  INFO 15896 --- [ms-plazoleta] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-12-30T20:58:04.839-05:00  INFO 15896 --- [ms-plazoleta] [main] c.a.ms_plazoleta.MsPlazoletaApplication  : Started MsPlazoletaApplication in 5.441 seconds (process running for 6.242)
+2024-12-30T20:59:21.636-05:00  INFO 15896 --- [ms-plazoleta] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30T20:59:21.636-05:00  INFO 15896 --- [ms-plazoleta] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-30T20:59:21.637-05:00  INFO 15896 --- [ms-plazoleta] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-30T20:59:22.349-05:00  INFO 15896 --- [ms-plazoleta] [http-nio-8086-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 285 ms
+2024-12-30T21:01:56.649-05:00  INFO 15896 --- [ms-plazoleta] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30T21:01:56.654-05:00  INFO 15896 --- [ms-plazoleta] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-30T21:01:56.659-05:00  INFO 15896 --- [ms-plazoleta] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T21:01:56.662-05:00  INFO 15896 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-30T21:01:56.666-05:00  INFO 15896 --- [ms-plazoleta] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
